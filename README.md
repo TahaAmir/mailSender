@@ -72,16 +72,6 @@ Update Count for That SenderThe sender’s email count is incremented after send
 
 EndThe process terminates when all receivers are processed.Final sender email counts are displayed.
 
-Notes for Real-World Use
-
-Instagram API: Replace simulated getInstagramDetails with Meta Graph API calls. See Meta for Developers.
-Email Sending: Integrate with an email service (e.g., SendGrid, AWS SES) for actual email delivery.
-Gender Detection: Use an API like Genderize.io for accurate gender inference.
-Database: Replace the in-memory axelDB with a real database (e.g., PostgreSQL).
-Configuration: Use environment variables or a config file for API keys and SMTP credentials.
-
-For issues or contributions, please open an issue or pull request on this repository.
-
 # Email Sending Flow
 
 ```mermaid
